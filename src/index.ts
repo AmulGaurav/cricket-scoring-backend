@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/v1", mainRouter);
 
-const MAX_OVER = 1;
+const MAX_OVER = 10;
 
 const server = http.createServer(app);
 
